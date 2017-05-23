@@ -60,11 +60,13 @@ td {
 }
 
 .fruit-grid {
-    margin: 25px;
+    margin: 20px;
 }
 
 .row-img {
     margin: 4px;
+    height: 100px;
+    width: 90%;
 }
 
 .flexrow {
