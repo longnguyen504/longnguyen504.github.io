@@ -1,0 +1,143 @@
+/* Page Layout */
+
+.container-fluid {
+    display: -webkit-flex;
+    width: 1000px;
+    justify-content: space-around;
+    align-content: stretch;
+    margin-bottom: 20px;
+}
+.flex-container {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.list-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  
+}
+
+.thumbnail {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+.product-details {
+    font-size: smaller;
+}
+
+.modal-body {
+    display: flex;
+    background-color: white;
+}
+
+.image {
+    margin-left: 60px;
+    justify-content: center;
+}
+
+.desc{
+    padding: 5px;
+}
+
+.price {
+    padding: 5px;
+    color: red;
+}
+
+.stock {
+    padding: 5px;
+}
+
+#temp-image {
+    max-height: 500px;
+    max-width:300px;
+}
+
+.modal-content{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background-color: transparent;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+body {
+      animation: colorchange 100s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 100s; 
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+    
+.container-fluid {
+      animation: colorchange 500s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 100s; 
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+    .thumbnail {
+      animation: colorchange 10s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 100s; 
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
